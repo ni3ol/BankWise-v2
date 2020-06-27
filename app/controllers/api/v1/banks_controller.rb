@@ -2,7 +2,7 @@
 
 class Api::V1::BanksController < ApplicationController
   def index
-    banks = Banks.all.order(created_at: :desc)
+    banks = Bank.all.order(created_at: :desc)
     render json: banks
   end
 

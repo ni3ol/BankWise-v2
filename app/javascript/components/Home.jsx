@@ -6,7 +6,7 @@ export default () => (
     <h1>Home</h1>
     <p>A fair comparison of the South African banking system</p>
     <hr />
-    <Link to="/bank" role="button">
+    <Link to="/banks" role="button">
       View Banks
     </Link>
   </div>
